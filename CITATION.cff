@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: RQA using sampling approach RQA_Samp
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Norbert
+    family-names: Marwan
+    email: marwan@pik-potsdam.de
+    affiliation: Potsdam Institute for Climate Impact Research (PIK)
+    orcid: 'https://orcid.org/0000-0003-1437-7039'
+identifiers:
+  - type: url
+    value: 'https://github.com/pucicu/RQA_Samp'
+    description: Github-Page
+repository-code: 'https://github.com/pucicu/RQA_Samp'
+abstract: >
+  Julia function to approximate some of the measures of the
+  recurrence quantification analysis (RQA). The calculation
+  is performed in an efficient way by sampling a limited
+  number of recurrence plot lines directly on the time
+  series (and without preceeding calculation of the
+  recurrence plot).
+keywords:
+  - software
+  - recurrence quantification analysis
+license: GPL-3.0+
