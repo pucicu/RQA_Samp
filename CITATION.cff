@@ -17,6 +17,11 @@ identifiers:
   - type: url
     value: 'https://github.com/pucicu/RQA_Samp'
     description: Github-Page
+  - type: doi
+    value: 10.5281/zenodo.18941139
+    description: Zenodo
+  - type: swh
+    value: 'swh:1:dir:68954a4e0f4831f04d85791b967c8ab4bdc2fc73'
 repository-code: 'https://github.com/pucicu/RQA_Samp'
 abstract: >
   Julia function to approximate some of the measures of the
@@ -29,3 +34,6 @@ keywords:
   - software
   - recurrence quantification analysis
 license: GPL-3.0+
+commit: 06be1e1
+version: '1'
+date-released: '2026-03-10'
