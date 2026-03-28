@@ -150,18 +150,18 @@ function get_hist_diagonal_sampled(x::AbstractMatrix{T}, ε::T, M::Int) where {T
     countAll = 0                      # Number of searches
     total_pairs = N * (N - 1) ÷ 2     # Number of (i,j) paires with i > j (excl. LOI)
 
-det_history = Float64[]
-l_history   = Float64[]
+    det_history = Float64[]
+    l_history   = Float64[]
 
-# Convergenz parameter
-K = 50              # newly calculate all K lines
-W = 5               # window size for sliding average
-tol = 1e-3          # relative toleranz
-min_samples = 500   # minimum number of samples before break
+    # Convergenz parameter
+    K = 50              # newly calculate all K lines
+    W = 5               # window size for sliding average
+    tol = 1e-3          # relative toleranz
+    min_samples = 500   # minimum number of samples before break
 
-sum_n_L  = 0.0   # sum(n * L[n]) for all n >= 1
-sum_n2_L = 0.0   # sum(n * L[n]) for n >= 2
-sum_L2   = 0.0   # sum(L[n]) for n >= 2
+    sum_n_L  = 0.0   # sum(n * L[n]) for all n >= 1
+    sum_n2_L = 0.0   # sum(n * L[n]) for n >= 2
+    sum_L2   = 0.0   # sum(L[n]) for n >= 2
     
     while count < M
         countAll += 1                 # Count number of searches
